@@ -5,7 +5,7 @@
 Clone the project using Git.
 
 ```sh
-git clone git@github.com:hemilkukami/TSS.git
+git clone git@github.com:HemilGoyani/TSS.git
 cd TSS
 ```
 
