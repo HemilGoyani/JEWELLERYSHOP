@@ -1,0 +1,4 @@
+{% load i18n %}{% autoescape off %}
+Hello {{email}},
+{% blocktranslate %}Rest Yur Password {{reset_link}}{% endblocktranslate %}
+{% endautoescape %}

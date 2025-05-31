@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1520px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    letter-spacing: 1.5px;
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.text-color {
+    color: #FFEBB5;
+}
+
+.hero-section {
+    background-image: url(../images/signi.In.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 40px 15px 140px;
+}
+
+h2 {
+    font-size: 60px;
+    line-height: 60px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    padding: 100px 0px;
+}
+
+p {
+    font-family: "Montserrat", system-ui;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFCF4;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+
+span {
+    display: block;
+    font-weight: 700;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    max-width: 100%;
+    width: 520px;
+    display: block;
+    background-color: transparent;
+    padding-bottom: 32px;
+    border: 0;
+    border-bottom: 1px solid #FFEBB5;
+    outline: none;
+    color: #FFEBB5 !important;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    font-family: "Montserrat", system-ui;
+}
+
+input::placeholder {
+    color: #FFEBB5 !important;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    font-family: "Montserrat", system-ui;
+}
+
+form .password input {
+    margin-top: 40px;
+}
+
+.sign-in-sec form .forgot-password a {
+    width: 520px;
+}
+
+form .forgot-password a {
+    text-align: left;
+    color: #FFEBB5 !important;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: "Montserrat", system-ui;
+    text-decoration: none;
+    padding-top: 15px;
+    display: block;
+}
+
+.sign-in-sec form .forgot-password a {
+    width: 520px !important;
+}
+
+form button {
+    background-color: #252324;
+    color: #ffffff;
+    border: 1px solid #FFEBB5;
+    padding: 15px 45px;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 4px;
+    font-family: "Montserrat", system-ui;
+    margin-top: 65px;
+    cursor: pointer;
+    transition: all 0.3s;
+    letter-spacing: 1.5px;
+}
+
+form button:hover {
+    background-color: #FFEBB5;
+    color: #252324;
+}
+
+form button.cancel-button {
+    background-color: #797777;
+    border: 1px solid #797777;
+    margin-left: 15px;
+    transition: all 0.3s;
+}
+
+form button.cancel-button:hover {
+    background-color: #252324;
+    border: 1px solid #252324;
+    color: #ffffff;
+}
+
+
+/************ Forgot-Password-Sec ************/ 
+
+.forgot-password-sec h2 {
+    font-size: 60px;
+    line-height: 60px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    padding: 100px 0px 20px;
+}
+
+.forgot-password-sec p {
+    padding-bottom: 80px;
+}
+
+.forgot-password form button {
+    margin-top: 100px !important;
+}
+
+.forgot-password a {
+    width: auto !important;
+    padding-top: 50px !important;
+}
+
+.email-forgot-password form button {
+    margin-top: 20px;
+}
+
+.change-password form .password input {
+    margin-bottom: 40px;
+}
+
+@media(max-width: 575px) {
+    form input {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .email, .password, .forgot-password, .old-password, .new-password-confirmation {
+        width: 100%;
+    }
+
+    .forgot-password-sec a {
+        text-align: center !important;
+    }
+
+    .sign-in-sec form .forgot-password a {
+        width: auto !important;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media(max-width: 450px) {
+
+     h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    form button {
+        padding: 12px 40px;
+        font-size: 18px;
+    }
+}
